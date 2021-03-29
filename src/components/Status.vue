@@ -60,6 +60,43 @@ export default {
 	@media only screen and (max-width:1279px){
 	
 		.Status{
+			width:90vw;
+			height:auto;
+			background-color:rgb(230, 59, 79);
+			float:left;
+			margin-left:5vw;
+			color:white;
+			border-radius:3vw;
+			font-size:3vw;
+			padding-bottom:5vw;
+			margin-top:5vw;
+		}
+		
+		.Status-titulo{
+			width:94%;
+			height:auto;
+			background-color:rgba(255,0,0,0);
+			float:left;
+			text-transform:uppercase;
+			line-height:8vw;
+			margin-top:1.5vw;
+			text-align:left;
+			padding-left:3%;
+			padding-right:3%;
+			font-weight:bold;
+		}
+
+		.Status-txt{
+			width:96%;
+			height:auto;
+			line-height:5vw;
+			background-color:rgba(255,0,0,0);
+			float:left;
+			text-align:left;
+			padding-left:3%;
+			padding-right:1%;
+			font-size:3vw;
+			padding-bottom:1.5vw;
 		}
 	
 	}

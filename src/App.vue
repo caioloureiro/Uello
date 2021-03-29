@@ -5,6 +5,7 @@
 		<Barra/>
 		<Usuario/>
 		<Mapa/>
+		<Painel_mobile/>
 
 	</div>
 
@@ -15,6 +16,7 @@
 	import Barra from './components/Barra.vue'
 	import Usuario from './components/Usuario.vue'
 	import Mapa from './components/Mapa.vue'
+	import Painel_mobile from './components/Painel_mobile.vue'
 
 	export default {
 
@@ -25,6 +27,7 @@
 			Barra,
 			Usuario,
 			Mapa,
+			Painel_mobile,
 
 		}
 

@@ -91,6 +91,31 @@ export default {
 	@media only screen and (max-width:1279px){
 	
 		.Central_ajuda{
+			width:auto;
+			height:9vw;
+			line-height:9vw;
+			background-color:rgba(75, 75, 85,1);
+			float:right;
+			color:white;
+			border-radius:0.9vw;
+			margin-right:5vw;
+			margin-top:70vw;
+			cursor:pointer;
+			font-size:3vw;
+			padding-left:3vw;
+			padding-right:3vw;
+		}
+		
+		.Central_ajuda_txt:before,
+		.Central_ajuda_icone,
+		.Central_ajuda_icone svg{
+			display:none;
+		}
+		
+		.Central_ajuda_txt{
+			width:auto;
+			text-align:center;
+			padding-left:0vw;
 		}
 	
 	}
